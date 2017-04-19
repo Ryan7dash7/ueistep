@@ -1,5 +1,4 @@
 # ueistep
-Move stepper motor.
 
 UEISTEP(N,F,CH,DIRECTION) commands a stepper motor connected to a compatible drive to move N steps at a frequency of F Hz in the specified direction. CH is a string used to select which channels to use within a session. For example, the string '0:3' or '0,1,2,3' selects digital output lines 0, 1, 2, and 3. DIRECTION is a logical input where 0 is clockwise as viewed from the output shaft end and 1 is counterclockwise. This input and others are sent to the drive by a UEI DNx-DIO-403 layer installed in a PowerDNA Cube.
 
